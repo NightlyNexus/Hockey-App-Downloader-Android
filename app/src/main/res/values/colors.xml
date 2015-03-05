@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <color name="color_primary">#675478</color>
+    <color name="color_primary_dark">#504060</color>
+    <color name="color_accent">#ABDE89</color>
+
+    <color name="background_contextual_action_bar">@color/color_primary_dark</color>
+
+    <color name="background_row_apps_list_default">@color/color_accent</color>
+
+    <color name="background_row_apps_list_section_title">@color/color_accent</color>
+    <color name="background_row_apps_list_section_title_stroke">@color/color_primary</color>
+
+</resources>

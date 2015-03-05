@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/login_layout"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/login_margin"
+        android:gravity="center_horizontal">
+
+        <EditText
+            android:id="@+id/api_key_entry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:inputType="textNoSuggestions"
+            android:imeOptions="actionGo"
+            android:imeActionLabel="@string/edit_text_login"
+            android:hint="@string/api_key_entry_hint" />
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_login" />
+
+        <Button
+            android:id="@+id/go_to_auth_tokens"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_go_to_auth_tokens" />
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/loading_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/login_loading_margin" />
+
+</FrameLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/row_apps_list_padding"
+    android:background="?selectableItemBackground">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="@dimen/row_apps_list_icon_size"
+        android:layout_height="match_parent"
+        android:minHeight="@dimen/row_apps_list_icon_size"
+        android:layout_marginEnd="@dimen/row_apps_list_icon_margin_end"
+        android:layout_marginRight="@dimen/row_apps_list_icon_margin_end"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/row_apps_list_icon_content_description" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/icon"
+        android:layout_toRightOf="@id/icon"
+        android:singleLine="true" />
+
+    <RelativeLayout
+        android:id="@+id/version_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_toEndOf="@id/icon"
+        android:layout_toRightOf="@id/icon">
+
+        <TextView
+            android:id="@+id/version_formatted"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_toStartOf="@+id/version_number"
+            android:layout_toLeftOf="@id/version_number"
+            android:singleLine="true" />
+
+        <TextView
+            android:id="@id/version_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:singleLine="true" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/timestamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/version_layout"
+        android:layout_toEndOf="@id/icon"
+        android:layout_toRightOf="@id/icon" />
+
+</RelativeLayout>

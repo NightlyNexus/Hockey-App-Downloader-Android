@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="app_name">Hockey</string>
+    <string name="title_app_name">@string/app_name</string>
+    <string name="title_login">Login</string>
+    <string name="title_logging_in">Logging in…</string>
+    <string name="title_apps_list">Apps</string>
+
+    <string name="api_key_entry_hint">Hockey Auth Token</string>
+    <string name="edit_text_login">Login</string>
+    <string name="button_login">Login</string>
+    <string name="button_go_to_auth_tokens">
+        Take me to get my auth token
+        \n(॓_॔)
+    </string>
+    <string name="button_go_to_auth_tokens_clicked">
+        Grab a token (or create a new one), copy it, and come back here
+    </string>
+    <string name="login_error_http">Your API key does not seem to be correct</string>
+    <string name="login_error_network">Could not connect to network</string>
+
+    <string name="action_logout">Logout</string>
+
+    <string name="release_type_alpha">alpha</string>
+    <string name="release_type_beta">beta</string>
+    <string name="release_type_store">store</string>
+    <string name="release_type_enterprise">enterprise</string>
+
+    <string name="row_apps_list_icon_content_description">App icon</string>
+
+    <string name="row_app_list_error">Error</string>
+
+    <string name="click_still_fetching_url">
+        Try again in a sec.  Still fetching %1$s download url
+    </string>
+    <string name="click_network_error">Network error</string>
+    <string name="click_empty_version_list">No downloadable version of %1$s available</string>
+
+    <string name="download_notification_description">@string/app_name</string>
+
+</resources>

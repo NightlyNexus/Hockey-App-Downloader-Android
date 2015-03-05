@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.nightlynexus.hockey.widget.NoScrollView
+        android:id="@+id/section_title_scroller"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <include
+                layout="@layout/row_apps_list_section_title"
+                android:id="@+id/section_title_top" />
+
+            <include
+                layout="@layout/row_apps_list_section_title"
+                android:id="@+id/section_title_middle" />
+
+            <include
+                layout="@layout/row_apps_list_section_title"
+                android:id="@+id/section_title_bottom" />
+
+        </LinearLayout>
+
+    </com.nightlynexus.hockey.widget.NoScrollView>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/apps_list_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

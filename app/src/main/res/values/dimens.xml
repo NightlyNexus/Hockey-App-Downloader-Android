@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <dimen name="login_margin">8dp</dimen>
+    <dimen name="login_loading_margin">64dp</dimen>
+
+    <dimen name="row_apps_list_icon_size">48dp</dimen>
+
+    <dimen name="row_apps_list_min_width">166dp</dimen>
+
+    <dimen name="row_apps_list_padding">8dp</dimen>
+    <dimen name="row_apps_list_icon_margin_end">8dp</dimen>
+
+    <dimen name="row_apps_list_section_title_padding">8dp</dimen>
+    <dimen name="background_row_apps_list_section_title_stroke_width">2dp</dimen>
+
+</resources>
